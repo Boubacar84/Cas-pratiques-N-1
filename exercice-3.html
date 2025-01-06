@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice-3</title>
+</head>
+<body>
+   <main>
+    <section>
+        <h1>Annexe 3 : Exercice 3 - Formulaire de contact</h1><br>
+
+            <h2>Exercice 3 : Formulaire de contact</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Information personnelle</legend>
+                        <label for="mlle">Mlle</label>
+                        <input type="radio" name="mlle" id="mlle" checked>
+                        <label for="mme">Mme</label>
+                        <input type="radio" name="mme" id="mme">
+                        <label for="m">M.</label>
+                        <input type="radio" name="m" id="m"><br>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" placeholder="votre prénom"><br>
+                        <label for="nom">Nom*</label>
+                        <input type="text" placeholder="votre nom"><br>
+                        <label for="email">Email*</label>
+                        <input type="text" placeholder="votre adresse email">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Votre message</legend>
+                        <label for="destination">Destinataire</label>
+                        <select name="destination" id="destination">
+                            <option value="general">Général</option>
+                            <option value="comptability">comptabilité</option>
+                            <option value="sav">SAV</option>
+                            <option value="customer service">Service client</option>
+                            <OPtion disabled selected>Par email</OPtion>
+                        </select><br>
+                        <label for="sujet">Sujet*</label>
+                        <input type="text"  placeholder="L'objet de votre message"><br>
+                        <label for="message">Message*</label>
+                        <textarea name="message" id="message" cols="50" rows="6" placeholder="Saisissez votre message ici"></textarea><br>
+                        <label for="fichier">Ajouter une pièce jointe</label>
+                        <label for="file-upload" class="custom-label"><button>Parcourir...</button></label>
+                        <span class="file-name">Aucun fichier sélectionné.</span>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Options</legend>
+                        <input type="checkbox" name="text" id="text">
+                        <label for="text">Recevoir une copie du message</label><br>
+                        <input type="checkbox" name="text" id="text">
+                        <label for="text">Recevoir nos offres</label>
+                    </fieldset>
+                </form>
+
+
+    </section>
+   </main>
+</body>
+</html>
